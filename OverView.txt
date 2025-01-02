@@ -1,0 +1,18 @@
+
+1. Import Necessary Depencies
+2. Reading of the DataSet into DataFrame
+3. Cleaning by Filling Missing Values
+4. Convert to 1NF (Normal Form)...that is by Slitting the 'Fullname' into two parts 'First_name' and 'Last_name'
+5. Converting 1NF to 2NF...that is for all tables: Customer, Loan, Account etc
+6. Merge operations to create the zulo_bank
+7. # Convert from 2NF to 3N, # Create the date dimension table, # Define the start and end dates
+8. Save to Directory
+9. Save to memory
+10. Data Ware House (DWH) Schemas for Transaction & Loan Tables And SAVING TO MEMORY
+11. Loading into the RDBMS using psycopg2: Install and Install psycopg2
+12. Define database connection parameters including the database name
+13. Connect to the newly created(or existing) database to  create schema and tables
+14. Create schema and tables
+15. RUN: create_tables() and then check pgadmin to confirm if has been created
+16. Loading the data AND date_dim table (NB: the process is repeated for each table)
+17. 
